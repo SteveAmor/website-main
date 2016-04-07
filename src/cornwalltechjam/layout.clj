@@ -39,4 +39,228 @@
 ;; Place holder for actual template
 (defn
   layout-page-main [request {:keys [title description path content]}]
-  (layout-page request content))
+  (layout-page request content)
+  (html5
+   [:head
+    
+    [:meta {:charset "UTF-8"}] 
+    [:meta {:name "viewport", :content "width=device-width, initial-scale=1"}] 
+    [:meta {:name "viewport", :content "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"}]
+    [:title {} "Artificial Reason"] 
+    [:link {:rel "shortcut icon", :href "assets/img/favicon.png"}] 
+    [:meta {:name "description", :content ""}]
+    [:link {:href "assets/css/preload.css", :rel "stylesheet"}] 
+    [:link {:href "assets/css/vendors.css", :rel "stylesheet"}] 
+    [:link {:href "assets/css/syntaxhighlighter/shCore.css", :rel "stylesheet"}]
+    [:link {:href "assets/css/style-blue.css", :rel "stylesheet", :title "default"}]
+    [:link {:href "assets/css/width-full.css", :rel "stylesheet", :title "default"}]
+    "<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->" "\n    " "<!--
+[if lt IE 9]>\n        <script src=\"assets/js/html5shiv.min.js\"></script>\n        <script src=\"assets/js/respond.min.js\"></script>\n    <!
+[endif]-->" "\n"] "\n\n" "<!-- Preloader -->" "\n" 
+   [:body {} 
+    [:div {:id "sb-site"}
+     [:div {:class "boxed"}
+      [:header {:id "header-full-top", :class "hidden-xs header-full"} 
+       [:div {:class "container"} 
+        [:div {:class "header-full-title"} 
+         [:h1 {:class "animated fadeInRight"} 
+          [:a {:href "index.html"} "artificial " 
+           [:span {} "reason"]]] 
+         [:p {:class "animated fadeInRight"} "Clean and elegant theme"]]
+        [:nav {:class "top-nav"} 
+         [:ul {:class "top-nav-social hidden-sm"} 
+          [:li {} 
+           [:a {:href "#", :class "animated fadeIn animation-delay-6 rss"} 
+            [:i {:class "fa fa-rss"}]]] 
+          [:li {} 
+           [:a {:href "#", :class "animated fadeIn animation-delay-7 twitter"} 
+            [:i {:class "fa fa-twitter"}]]] 
+          [:li {} 
+           [:a {:href "#", :class "animated fadeIn animation-delay-8 facebook"} 
+            [:i {:class "fa fa-facebook"}]]]
+          [:li {} 
+           [:a {:href "#", :class "animated fadeIn animation-delay-9 google-plus"} 
+            [:i {:class "fa fa-google-plus"}]]]
+          [:li {} 
+           [:a {:href "#", :class "animated fadeIn animation-delay-9 instagram"} 
+            [:i {:class "fa fa-instagram"}]]] 
+          [:li {} 
+           [:a {:href "#", :class "animated fadeIn animation-delay-8 vine"} 
+            [:i {:class "fa fa-vine"}]]] 
+          [:li {} 
+           [:a {:href "#", :class "animated fadeIn animation-delay-7 linkedin"} 
+            [:i {:class "fa fa-linkedin"}]]]
+          [:li {} 
+           [:a {:href "#", :class "animated fadeIn animation-delay-6 flickr"} 
+            [:i {:class "fa fa-flickr"}]]] ] 
+         [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
+          [:a {:href "#", :class "dropdown-toggle", :data-toggle "dropdown"} 
+           [:i {:class "fa fa-user"}] " Login"] 
+          [:div {:class "dropdown-menu dropdown-menu-right dropdown-login-box animated flipCenter"} 
+           [:form {:role "form"} 
+            [:h4 {} "Login Form"]
+            [:div {:class "form-group"}
+             [:div {:class "input-group login-input"} 
+              [:span {:class "input-group-addon"} 
+               [:i {:class "fa fa-user"}]] 
+              [:input {:type "text", :class "form-control", :placeholder "Username"}]]
+             [:br {}] 
+             [:div {:class "input-group login-input"} 
+              [:span {:class "input-group-addon"} 
+               [:i {:class "fa fa-lock"}]]
+              [:input {:type "password", :class "form-control", :placeholder "Password"}]]
+             [:div {:class "checkbox pull-left"} 
+              [:input {:type "checkbox", :id "checkbox_remember1"}] 
+              [:label {:for "checkbox_remember1"} "Remember me"]]
+             [:button {:type "submit", :class "btn btn-ar btn-primary pull-right"} "Login"]
+             [:div {:class "clearfix"}]]]]] 
+         [:div {:class "dropdown animated fadeInDown animation-delay-13"} 
+          [:a {:href "#", :class "dropdown-toggle", :data-toggle "dropdown"} 
+           [:i {:class "fa fa-search"}]]
+          [:div {:class "dropdown-menu dropdown-menu-right dropdown-search-box animated fadeInUp"} 
+           [:form {:role "form"} 
+            [:div {:class "input-group"} 
+             [:input {:type "text", :class "form-control", :placeholder "Search..."}] 
+             [:span {:class "input-group-btn"} 
+              [:button {:class "btn btn-ar btn-primary", :type "button"} "Go!"]]]]]]]]]
+      [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
+       [:div {:class "container"}
+        "<!-- Brand and toggle get grouped for better mobile display -->"
+        [:div {:class "navbar-header"}
+         [:button {:type "button", :class "navbar-toggle", :data-toggle "collapse", :data-target "#bs-example-navbar-collapse-1"} 
+          [:span {:class "sr-only"} "Toggle navigation"] 
+          [:i {:class "fa fa-bars"}]]
+         [:a {:id "ar-brand", :class "navbar-brand hidden-lg hidden-md hidden-sm", :href "index.html"} "Artificial " 
+          [:span {} "Reason"]]]
+        "<!-- navbar-header -->"
+        "<!-- Collect the nav links, forms, and other content for toggling -->"
+        [:div {:class "pull-right"}
+         [:a {:href "javascript:void(0);", :class "sb-icon-navbar sb-toggle-right"} 
+          [:i {:class "fa fa-bars"}]]]
+        [:div {:class "collapse navbar-collapse", :id "bs-example-navbar-collapse-1"}
+         [:ul {:class "nav navbar-nav"}
+
+          [:li {:class ""}
+           [:a {:href "#"} "Hello"]]
+
+          [:li {:class ""}
+           [:a {:href "#"} "Tech Jam"]]
+          
+          ]]]]
+      
+      [:div.overlay content]
+
+      [:aside {:id "footer-widgets"}
+       [:div {:class "container"}
+        [:div {:class "row"}
+         [:div {:class "col-md-4"}
+          [:h3 {:class "footer-widget-title"} "Sitemap"]
+          [:ul {:class "list-unstyled three_cols"}  [:li {} [:a {:href "index.html"} "Home"]                                               ]
+           [:li {} [:a {:href "blog.html"} "Blog"]]
+           [:li {} [:a {:href "portfolio_sidebar.html"} "Portafolio"]]
+           [:li {} [:a {:href "portfolio_topvar.html"} "Works"]]
+           [:li {} [:a {:href "page_timeline_left.html"} "Timeline"]]
+           [:li {} [:a {:href "page_pricing.html"} "Pricing"]]
+           [:li {} [:a {:href "page_about2.html"} "About Us"]]
+           [:li {} [:a {:href "page_team.html"} "Our Team"]]
+           [:li {} [:a {:href "page_services.html"} "Services"]]
+           [:li {} [:a {:href "page_support.html"} "FAQ"]]
+           [:li {} [:a {:href "page_login_full.html"} "Login"]]
+           [:li {} [:a {:href "page_contact.html"} "Contact"]]]
+          [:h3 {:class "footer-widget-title"} "Subscribe"]
+          [:p {} "Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit."]
+          [:div {:class "input-group"}  [:input {:type "text", :placeholder "Email Adress", :class "form-control"}]
+           [:span {:class "input-group-btn"}  [:button {:type "button", :class "btn btn-ar btn-primary"} "Subscribe"]]]
+          "<!-- /input-group -->" ]
+         [:div {:class "col-md-4"}
+          [:div {:class "footer-widget"}
+           [:h3 {:class "footer-widget-title"} "Recent Post"]
+           [:div {:class "media"}
+            [:a {:href "#", :class "pull-left"}
+             [:img {:height "75", :width "75", :alt "image", :src "assets/img/demo/m2.jpg", :class "media-object"}]                   ]
+            [:div {:class "media-body"}
+             [:h4 {:class "media-heading"} [:a {:href "#"} "Lorem ipsum Duis quis occaecat minim lorem ipsum tempor officia labor"]]
+             [:small {} "August 18, 2013"]       ]      ]
+           [:div {:class "media"}
+            [:a {:href "#", :class "pull-left"}
+             [:img {:height "75", :width "75", :alt "image", :src "assets/img/demo/m11.jpg", :class "media-object"}]]
+            [:div {:class "media-body"}
+             [:h4 {:class "media-heading"} [:a {:href "#"} "Lorem ipsum dolor excepteur sunt in lorem ipsum cillum tempor"]]
+             [:small {} "September 14, 2013"]       ]      ]
+           [:div {:class "media"}
+            [:a {:href "#", :class "pull-left"}
+             [:img {:height "75", :width "75", :alt "image", :src "assets/img/demo/m4.jpg", :class "media-object"}]]
+            [:div {:class "media-body"}
+             [:h4 {:class "media-heading"}
+              [:a {:href "#"} "Lorem ipsum Dolor cupidatat minim adipisicing et fugiat"]                                    ]
+             [:small {} "October 9, 2013"]]]]]
+         [:div {:class "col-md-4"}
+          [:div {:class "footer-widget"}
+           [:h3 {:class "footer-widget-title"} "Recent Works"]
+           [:div {:class "row"}
+            [:div {:class "col-lg-6 col-md-6 col-sm-3 col-xs-6"}
+             [:a {:class "thumbnail", :href "#"} [:img {:alt "Image", :class "img-responsive", :src "assets/img/demo/wf1.jpg"}]]]
+            [:div {:class "col-lg-6 col-md-6 col-sm-3 col-xs-6"}
+             [:a {:class "thumbnail", :href "#"} [:img {:alt "Image", :class "img-responsive", :src "assets/img/demo/wf2.jpg"}]]]
+            [:div {:class "col-lg-6 col-md-6 col-sm-3 col-xs-6"}
+             [:a {:class "thumbnail", :href "#"} [:img {:alt "Image", :class "img-responsive", :src "assets/img/demo/wf3.jpg"}]]]
+            [:div {:class "col-lg-6 col-md-6 col-sm-3 col-xs-6"}
+             [:a {:class "thumbnail", :href "#"} [:img {:alt "Image", :class "img-responsive", :src "assets/img/demo/wf4.jpg"}]]]]]]]
+        " " "<!-- row -->" ]
+       " " "<!-- container -->" ]
+
+
+      [:footer {:id "footer"}
+       [:p {} "© 2014 " [:a {:href "#"} "Cornwall Tech Jam"]", inc. All rights reserved."]]
+
+      
+
+
+      ]
+
+     
+
+     [:div {:class "sb-slidebar sb-right"}
+      [:div {:class "input-group"}
+       [:input {:type "text", :class "form-control", :placeholder "Search..."}]
+       [:span {:class "input-group-btn"}
+        [:button {:class "btn btn-default", :type "button"} [:i {:class "fa fa-search"}]]]]
+      
+      [:h2 {:class "slidebar-header no-margin-bottom"} "Navigation"]
+      [:ul {:class "slidebar-menu"}
+       [:li {} [:a {:href "index.html"} "Home"]]
+       [:li {} [:a {:href "portfolio_topbar.html"} "Portfolio"]]
+       [:li {} [:a {:href "page_about3.html"} "About us"]]
+       [:li {} [:a {:href "blog.html"} "Blog"]]
+       [:li {} [:a {:href "page_contact.html"} "Contact"]] ]
+      
+      [:h2 {:class "slidebar-header"} "Social Media"]
+      [:div {:class "slidebar-social-icons"}
+       [:a {:href "#", :class "social-icon-ar rss"} [:i {:class "fa fa-rss"}]]
+       [:a {:href "#", :class "social-icon-ar facebook"} [:i {:class "fa fa-facebook"}]]
+       [:a {:href "#", :class "social-icon-ar twitter"} [:i {:class "fa fa-twitter"}]]
+       [:a {:href "#", :class "social-icon-ar pinterest"} [:i {:class "fa fa-pinterest"}]]
+       [:a {:href "#", :class "social-icon-ar instagram"} [:i {:class "fa fa-instagram"}]]
+       [:a {:href "#", :class "social-icon-ar wordpress"} [:i {:class "fa fa-wordpress"}]]
+       [:a {:href "#", :class "social-icon-ar linkedin"} [:i {:class "fa fa-linkedin"}]]
+       [:a {:href "#", :class "social-icon-ar flickr"} [:i {:class "fa fa-flickr"}]]
+       [:a {:href "#", :class "social-icon-ar vine"} [:i {:class "fa fa-vine"}]]
+       [:a {:href "#", :class "social-icon-ar dribbble"} [:i {:class "fa fa-dribbble"}]]]]
+
+     [:div {:id "back-top"}  [:a {:href "#header"} [:i {:class "fa fa-chevron-up"}]]]
+
+     ;; "\n\n" "<!-- Scripts -->"  "<!-- Compiled in vendors.js -->"  "<!--\n<script src=\"assets/js/jquery.min.js\"></script>\n<script src=\"assets/js/jquery.cookie.js\"></script>\n<script src=\"assets/js/imagesloaded.pkgd.min.js\"></script>\n<script src=\"assets/js/bootstrap.min.js\"></script>\n<script src=\"assets/js/bootstrap-switch.min.js\"></script>\n<script src=\"assets/js/wow.min.js\"></script>\n<script src=\"assets/js/slidebars.min.js\"></script>\n<script src=\"assets/js/jquery.bxslider.min.js\"></script>\n<script src=\"assets/js/holder.js\"></script>\n<script src=\"assets/js/buttons.js\"></script>\n<script src=\"assets/js/jquery.mixitup.min.js\"></script>\n<script src=\"assets/js/circles.min.js\"></script>\n<script src=\"assets/js/masonry.pkgd.min.js\"></script>\n<script src=\"assets/js/jquery.matchHeight-min.js\"></script>\n-->" "\n\n"
+
+     [:script {:src "assets/js/vendors.js"}]
+
+     ;; "\n\n" "<!--<script type=\"text/javascript\" src=\"assets/js/jquery.themepunch.tools.min.js?rev=5.0\"></script>\n<script type=\"text/javascript\" src=\"assets/js/jquery.themepunch.revolution.min.js?rev=5.0\"></script>-->" "\n\n\n" "<!-- Syntaxhighlighter -->"
+
+     [:script {:src "assets/js/syntaxhighlighter/shCore.js"}]
+     [:script {:src "assets/js/syntaxhighlighter/shBrushXml.js"}]
+     [:script {:src "assets/js/syntaxhighlighter/shBrushJScript.js"}]
+     "\n\n" [:script {:src "assets/js/DropdownHover.js"}]
+     [:script {:src "assets/js/app.js"}]
+     [:script {:src "assets/js/holder.js"}]
+
+
+     ]]))
