@@ -50,7 +50,8 @@
     [:link {:rel "shortcut icon", :href "assets/img/favicon.png"}] 
     [:meta {:name "description", :content ""}]
     [:link {:href "assets/css/preload.css", :rel "stylesheet"}] 
-    [:link {:href "assets/css/vendors.css", :rel "stylesheet"}] 
+    [:link {:href "assets/css/vendors.css", :rel "stylesheet"}]
+    [:link {:href "assets/css/techjam.css", :rel "stylesheet"}] 
     [:link {:href "assets/css/syntaxhighlighter/shCore.css", :rel "stylesheet"}]
     [:link {:href "assets/css/style-blue.css", :rel "stylesheet", :title "default"}]
     [:link {:href "assets/css/width-full.css", :rel "stylesheet", :title "default"}]
@@ -70,9 +71,6 @@
         [:nav {:class "top-nav"} 
          [:ul {:class "top-nav-social hidden-sm"} 
           [:li {} 
-           [:a {:href "#", :class "animated fadeIn animation-delay-6 rss"} 
-            [:i {:class "fa fa-rss"}]]] 
-          [:li {} 
            [:a {:href "#", :class "animated fadeIn animation-delay-7 twitter"} 
             [:i {:class "fa fa-twitter"}]]] 
           [:li {} 
@@ -81,21 +79,10 @@
           [:li {} 
            [:a {:href "#", :class "animated fadeIn animation-delay-9 google-plus"} 
             [:i {:class "fa fa-google-plus"}]]]
-          [:li {} 
-           [:a {:href "#", :class "animated fadeIn animation-delay-9 instagram"} 
-            [:i {:class "fa fa-instagram"}]]] 
-          [:li {} 
-           [:a {:href "#", :class "animated fadeIn animation-delay-8 vine"} 
-            [:i {:class "fa fa-vine"}]]] 
-          [:li {} 
-           [:a {:href "#", :class "animated fadeIn animation-delay-7 linkedin"} 
-            [:i {:class "fa fa-linkedin"}]]]
-          [:li {} 
-           [:a {:href "#", :class "animated fadeIn animation-delay-6 flickr"} 
-            [:i {:class "fa fa-flickr"}]]] ] 
+ ] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
           [:a {:href "/index.html", :class "dropdown-toggle", :data-toggle "dropdown"} 
-           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam 6th April"] 
+           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 6th April"] 
       ] 
       ]]]
 
@@ -114,15 +101,15 @@
         [:div {:class "collapse navbar-collapse", :id "bs-example-navbar-collapse-1"}
          [:ul {:class "nav navbar-nav"}
 
-          [:li {:class ""}
-           [:a {:href "#"} "Hello"]]
+          [:li {:class "active"}
+           [:a {:href "index.html"} "Home"]]
 
           [:li {:class ""}
            [:a {:href "#"} "Tech Jam"]]
           
           ]]]]
       
-      [:div.overlay content]
+      content
 
       [:aside {:id "footer-widgets"}
        [:div {:class "container"}
