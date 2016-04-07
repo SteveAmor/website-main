@@ -114,15 +114,8 @@
               [:label {:for "checkbox_remember1"} "Remember me"]]
              [:button {:type "submit", :class "btn btn-ar btn-primary pull-right"} "Login"]
              [:div {:class "clearfix"}]]]]] 
-         [:div {:class "dropdown animated fadeInDown animation-delay-13"} 
-          [:a {:href "#", :class "dropdown-toggle", :data-toggle "dropdown"} 
-           [:i {:class "fa fa-search"}]]
-          [:div {:class "dropdown-menu dropdown-menu-right dropdown-search-box animated fadeInUp"} 
-           [:form {:role "form"} 
-            [:div {:class "input-group"} 
-             [:input {:type "text", :class "form-control", :placeholder "Search..."}] 
-             [:span {:class "input-group-btn"} 
-              [:button {:class "btn btn-ar btn-primary", :type "button"} "Go!"]]]]]]]]]
+      ]]]
+
       [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
        [:div {:class "container"}
         "<!-- Brand and toggle get grouped for better mobile display -->"
