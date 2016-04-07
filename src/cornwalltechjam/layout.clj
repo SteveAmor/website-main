@@ -105,7 +105,13 @@
            [:a {:href "index.html"} "Home"]]
 
           [:li {:class ""}
-           [:a {:href "#"} "Tech Jam"]]
+           [:a {:href "#"} "About the Tech Jam"]]
+
+          [:li {:class ""}
+           [:a {:href "#"} "Getting there"]]
+
+          [:li {:class ""}
+           [:a {:href "#"} "Contact us"]]
           
           ]]]]
       
