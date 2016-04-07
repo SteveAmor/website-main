@@ -134,9 +134,7 @@
           [:span {} "Reason"]]]
         "<!-- navbar-header -->"
         "<!-- Collect the nav links, forms, and other content for toggling -->"
-        [:div {:class "pull-right"}
-         [:a {:href "javascript:void(0);", :class "sb-icon-navbar sb-toggle-right"} 
-          [:i {:class "fa fa-bars"}]]]
+
         [:div {:class "collapse navbar-collapse", :id "bs-example-navbar-collapse-1"}
          [:ul {:class "nav navbar-nav"}
 
@@ -220,32 +218,7 @@
 
      
 
-     [:div {:class "sb-slidebar sb-right"}
-      [:div {:class "input-group"}
-       [:input {:type "text", :class "form-control", :placeholder "Search..."}]
-       [:span {:class "input-group-btn"}
-        [:button {:class "btn btn-default", :type "button"} [:i {:class "fa fa-search"}]]]]
-      
-      [:h2 {:class "slidebar-header no-margin-bottom"} "Navigation"]
-      [:ul {:class "slidebar-menu"}
-       [:li {} [:a {:href "index.html"} "Home"]]
-       [:li {} [:a {:href "portfolio_topbar.html"} "Portfolio"]]
-       [:li {} [:a {:href "page_about3.html"} "About us"]]
-       [:li {} [:a {:href "blog.html"} "Blog"]]
-       [:li {} [:a {:href "page_contact.html"} "Contact"]] ]
-      
-      [:h2 {:class "slidebar-header"} "Social Media"]
-      [:div {:class "slidebar-social-icons"}
-       [:a {:href "#", :class "social-icon-ar rss"} [:i {:class "fa fa-rss"}]]
-       [:a {:href "#", :class "social-icon-ar facebook"} [:i {:class "fa fa-facebook"}]]
-       [:a {:href "#", :class "social-icon-ar twitter"} [:i {:class "fa fa-twitter"}]]
-       [:a {:href "#", :class "social-icon-ar pinterest"} [:i {:class "fa fa-pinterest"}]]
-       [:a {:href "#", :class "social-icon-ar instagram"} [:i {:class "fa fa-instagram"}]]
-       [:a {:href "#", :class "social-icon-ar wordpress"} [:i {:class "fa fa-wordpress"}]]
-       [:a {:href "#", :class "social-icon-ar linkedin"} [:i {:class "fa fa-linkedin"}]]
-       [:a {:href "#", :class "social-icon-ar flickr"} [:i {:class "fa fa-flickr"}]]
-       [:a {:href "#", :class "social-icon-ar vine"} [:i {:class "fa fa-vine"}]]
-       [:a {:href "#", :class "social-icon-ar dribbble"} [:i {:class "fa fa-dribbble"}]]]]
+
 
      [:div {:id "back-top"}  [:a {:href "#header"} [:i {:class "fa fa-chevron-up"}]]]
 
