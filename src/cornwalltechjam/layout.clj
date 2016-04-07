@@ -64,9 +64,9 @@
        [:div {:class "container"} 
         [:div {:class "header-full-title"} 
          [:h1 {:class "animated fadeInRight"} 
-          [:a {:href "index.html"} "artificial " 
-           [:span {} "reason"]]] 
-         [:p {:class "animated fadeInRight"} "Clean and elegant theme"]]
+          [:a {:href "index.html"} "Cornwall " 
+           [:span {} "Tech Jam"]]] 
+         [:p {:class "animated fadeInRight"} "Raspberry Pi's, Pasties and Programming"]]
         [:nav {:class "top-nav"} 
          [:ul {:class "top-nav-social hidden-sm"} 
           [:li {} 
@@ -94,26 +94,9 @@
            [:a {:href "#", :class "animated fadeIn animation-delay-6 flickr"} 
             [:i {:class "fa fa-flickr"}]]] ] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
-          [:a {:href "#", :class "dropdown-toggle", :data-toggle "dropdown"} 
-           [:i {:class "fa fa-user"}] " Login"] 
-          [:div {:class "dropdown-menu dropdown-menu-right dropdown-login-box animated flipCenter"} 
-           [:form {:role "form"} 
-            [:h4 {} "Login Form"]
-            [:div {:class "form-group"}
-             [:div {:class "input-group login-input"} 
-              [:span {:class "input-group-addon"} 
-               [:i {:class "fa fa-user"}]] 
-              [:input {:type "text", :class "form-control", :placeholder "Username"}]]
-             [:br {}] 
-             [:div {:class "input-group login-input"} 
-              [:span {:class "input-group-addon"} 
-               [:i {:class "fa fa-lock"}]]
-              [:input {:type "password", :class "form-control", :placeholder "Password"}]]
-             [:div {:class "checkbox pull-left"} 
-              [:input {:type "checkbox", :id "checkbox_remember1"}] 
-              [:label {:for "checkbox_remember1"} "Remember me"]]
-             [:button {:type "submit", :class "btn btn-ar btn-primary pull-right"} "Login"]
-             [:div {:class "clearfix"}]]]]] 
+          [:a {:href "/index.html", :class "dropdown-toggle", :data-toggle "dropdown"} 
+           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam 6th April"] 
+      ] 
       ]]]
 
       [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
