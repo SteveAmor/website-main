@@ -81,7 +81,7 @@
             [:img {:src "assets/img/meetup-logo.svg"}]]]] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
           [:a {:href "/index.html", :class "dropdown-toggle", :data-toggle "dropdown"} 
-           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 6th April"] 
+           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 14th May"] 
       ] 
       ]]]
 
@@ -94,9 +94,7 @@
           [:i {:class "fa fa-bars"}]]
          [:a {:id "ar-brand", :class "navbar-brand hidden-lg hidden-md hidden-sm", :href "index.html"} "Cornwall " 
           [:span {} "Tech Jam"]]]
-        "<!-- navbar-header -->"
-        "<!-- Collect the nav links, forms, and other content for toggling -->"
-
+     
         [:div {:class "collapse navbar-collapse", :id "bs-example-navbar-collapse-1"}
          [:ul {:class "nav navbar-nav"}
 
