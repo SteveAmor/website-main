@@ -141,7 +141,7 @@
            [:h3 {:class "footer-widget-title"} "A litte bit about the Tech Jam"]
            [:p "Cornwall's Tech Jams are run by volunteers working in IT and education throughout Cornwall, in association with Software Cornwall, local businesses and Bodmin College."]
            [:p "Except where otherwise noted, content on this site is licensed under a " [:a {:href "http://creativecommons.org/licenses/by/4.0/"} "Creative Commons Attribution 4.0 International license"] "."]
-           [:p  "This website is powered by " [:a {:href "https://clojure.org/"} "Clojure"] " and " [:a {:href "https://github.com/magnars/stasis"} "Stasis"] ", source code can be found on " [:a {:href "https://github.com/CornwallTechJam"} "GitHub"] "."]
+           [:p  "Powered by " [:a {:href "https://clojure.org/"} "Clojure"] " and " [:a {:href "https://github.com/magnars/stasis"} "Stasis"] ", created with " [:a {:href "https://www.gnu.org/software/emacs/"} "Emacs"] ", source code on " [:a {:href "https://github.com/CornwallTechJam"} "GitHub"] "."]
            
         ]]
 ]
