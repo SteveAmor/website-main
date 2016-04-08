@@ -117,65 +117,41 @@
       [:aside {:id "footer-widgets"}
        [:div {:class "container"}
         [:div {:class "row"}
-         [:div {:class "col-md-4"}
-          [:h3 {:class "footer-widget-title"} "Sitemap"]
-          [:ul {:class "list-unstyled three_cols"}  [:li {} [:a {:href "index.html"} "Home"]                                               ]
-           [:li {} [:a {:href "blog.html"} "Blog"]]
-           [:li {} [:a {:href "portfolio_sidebar.html"} "Portafolio"]]
-           [:li {} [:a {:href "portfolio_topvar.html"} "Works"]]
-           [:li {} [:a {:href "page_timeline_left.html"} "Timeline"]]
-           [:li {} [:a {:href "page_pricing.html"} "Pricing"]]
-           [:li {} [:a {:href "page_about2.html"} "About Us"]]
-           [:li {} [:a {:href "page_team.html"} "Our Team"]]
-           [:li {} [:a {:href "page_services.html"} "Services"]]
-           [:li {} [:a {:href "page_support.html"} "FAQ"]]
-           [:li {} [:a {:href "page_login_full.html"} "Login"]]
-           [:li {} [:a {:href "page_contact.html"} "Contact"]]]
-          [:h3 {:class "footer-widget-title"} "Subscribe"]
-          [:p {} "Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit."]
-          [:div {:class "input-group"}  [:input {:type "text", :placeholder "Email Adress", :class "form-control"}]
-           [:span {:class "input-group-btn"}  [:button {:type "button", :class "btn btn-ar btn-primary"} "Subscribe"]]]
-          "<!-- /input-group -->" ]
+
          [:div {:class "col-md-4"}
           [:div {:class "footer-widget"}
-           [:h3 {:class "footer-widget-title"} "Recent Post"]
-           [:div {:class "media"}
-            [:a {:href "#", :class "pull-left"}
-             [:img {:height "75", :width "75", :alt "image", :src "assets/img/demo/m2.jpg", :class "media-object"}]                   ]
-            [:div {:class "media-body"}
-             [:h4 {:class "media-heading"} [:a {:href "#"} "Lorem ipsum Duis quis occaecat minim lorem ipsum tempor officia labor"]]
-             [:small {} "August 18, 2013"]       ]      ]
-           [:div {:class "media"}
-            [:a {:href "#", :class "pull-left"}
-             [:img {:height "75", :width "75", :alt "image", :src "assets/img/demo/m11.jpg", :class "media-object"}]]
-            [:div {:class "media-body"}
-             [:h4 {:class "media-heading"} [:a {:href "#"} "Lorem ipsum dolor excepteur sunt in lorem ipsum cillum tempor"]]
-             [:small {} "September 14, 2013"]       ]      ]
-           [:div {:class "media"}
-            [:a {:href "#", :class "pull-left"}
-             [:img {:height "75", :width "75", :alt "image", :src "assets/img/demo/m4.jpg", :class "media-object"}]]
-            [:div {:class "media-body"}
-             [:h4 {:class "media-heading"}
-              [:a {:href "#"} "Lorem ipsum Dolor cupidatat minim adipisicing et fugiat"]                                    ]
-             [:small {} "October 9, 2013"]]]]]
-         [:div {:class "col-md-4"}
-          [:div {:class "footer-widget"}
-           [:h3 {:class "footer-widget-title"} "Recent Works"]
+           [:h3 {:class "footer-widget-title"} "Through the keyhole"]
            [:div {:class "row"}
             [:div {:class "col-lg-6 col-md-6 col-sm-3 col-xs-6"}
-             [:a {:class "thumbnail", :href "#"} [:img {:alt "Image", :class "img-responsive", :src "assets/img/demo/wf1.jpg"}]]]
+             [:div.thumbnail [:img {:alt "The infamous Mission to Mars rover", :class "img-responsive", :src "assets/img/footer/tj_mission_to_mars_rover.jpg"}]]]
             [:div {:class "col-lg-6 col-md-6 col-sm-3 col-xs-6"}
-             [:a {:class "thumbnail", :href "#"} [:img {:alt "Image", :class "img-responsive", :src "assets/img/demo/wf2.jpg"}]]]
+             [:div.thumbnail [:img {:alt "Close up of an ESP8266 module connect to a breadboard", :class "img-responsive", :src "assets/img/footer/eot_esp_8266_close_up.jpg"}]]]
             [:div {:class "col-lg-6 col-md-6 col-sm-3 col-xs-6"}
-             [:a {:class "thumbnail", :href "#"} [:img {:alt "Image", :class "img-responsive", :src "assets/img/demo/wf3.jpg"}]]]
+             [:div.thumbnail [:img {:alt "Mike Trebilcock interfacing with the Cornish programmer's fuel of choice (a pasty)", :class "img-responsive", :src "assets/img/footer/tj_mike_pasty.jpg"}]]]
             [:div {:class "col-lg-6 col-md-6 col-sm-3 col-xs-6"}
-             [:a {:class "thumbnail", :href "#"} [:img {:alt "Image", :class "img-responsive", :src "assets/img/demo/wf4.jpg"}]]]]]]]
+             [:div.thumbnail [:img {:alt "Hard at work soldering at the Eden of Things project", :class "img-responsive", :src "assets/img/footer/eot_soldering.jpg"}]]]]]]
+         
+         [:div {:class "col-md-4"}
+          [:div {:class "footer-widget footer-swcornwall"}
+           [:a {:href "http://www.softwarecornwall.org" :title "Proud to be part of Software Cornwall"}
+            [:img {:src "assets/img/software_cornwall_logo_square.png" :alt "Software Cornwall logo"}]]]]
+         
+         [:div {:class "col-md-4"}
+          [:div {:class "footer-widget"}
+           [:h3 {:class "footer-widget-title"} "A litte bit about the jam"]
+           [:p {} "Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit."]
+           [:p {} "Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit."]
+           [:p {} "Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit."]
+           
+        ]]
+]
         " " "<!-- row -->" ]
        " " "<!-- container -->" ]
 
 
       [:footer {:id "footer"}
-       [:p {} "© 2014 " [:a {:href "#"} "Cornwall Tech Jam"]", inc. All rights reserved."]]
+       [:p "Feel free to fork, we're hosted on"]
+       [:a {:href "#"} [:img {:src "assets/img/github_pages.svg"}]]]
 
       
 

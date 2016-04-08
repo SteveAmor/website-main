@@ -21,3 +21,17 @@ img.hp-rover {
 .top-nav-social .meetup img {
     height: 21px;
 }
+
+.footer-swcornwall {
+    text-align: center;
+}
+
+.footer-swcornwall img {
+    max-width: 180px;
+    border-radius: 90px;
+    margin: 64px auto;
+}
+
+#footer img {
+    margin-top: 8px;
+}
