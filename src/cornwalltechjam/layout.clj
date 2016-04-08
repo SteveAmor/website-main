@@ -93,8 +93,8 @@
          [:button {:type "button", :class "navbar-toggle", :data-toggle "collapse", :data-target "#bs-example-navbar-collapse-1"} 
           [:span {:class "sr-only"} "Toggle navigation"] 
           [:i {:class "fa fa-bars"}]]
-         [:a {:id "ar-brand", :class "navbar-brand hidden-lg hidden-md hidden-sm", :href "index.html"} "Artificial " 
-          [:span {} "Reason"]]]
+         [:a {:id "ar-brand", :class "navbar-brand hidden-lg hidden-md hidden-sm", :href "index.html"} "Cornwall " 
+          [:span {} "Tech Jam"]]]
         "<!-- navbar-header -->"
         "<!-- Collect the nav links, forms, and other content for toggling -->"
 
@@ -105,10 +105,10 @@
            [:a {:href "index.html"} "Home"]]
 
           [:li {:class ""}
-           [:a {:href "#"} "About the Tech Jam"]]
+           [:a {:href "#"} "Getting there"]]
 
           [:li {:class ""}
-           [:a {:href "#"} "Getting there"]]
+           [:a {:href "#"} "Photo gallery"]]
 
           [:li {:class ""}
            [:a {:href "#"} "Contact us"]]

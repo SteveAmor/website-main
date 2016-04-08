@@ -7,3 +7,9 @@ img.hp-rover {
     background-image: url("/assets/img/logo_pasty_pi.svg");
     padding-left: 94px;
 }
+
+.navbar-default .navbar-brand {
+    background-image: url("/assets/img/logo_pasty_pi_small.svg");
+    padding-left: 53px;
+    text-transform: none;
+}
