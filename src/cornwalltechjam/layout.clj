@@ -137,11 +137,11 @@
             [:img {:src "assets/img/software_cornwall_logo_square.png" :alt "Software Cornwall logo"}]]]]
          
          [:div {:class "col-md-4"}
-          [:div {:class "footer-widget"}
-           [:h3 {:class "footer-widget-title"} "A litte bit about the jam"]
-           [:p {} "Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit."]
-           [:p {} "Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit."]
-           [:p {} "Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit."]
+          [:div {:class "footer-widget footer-about"}
+           [:h3 {:class "footer-widget-title"} "A litte bit about the Tech Jam"]
+           [:p "Cornwall's Tech Jams are run by volunteers working in IT and education throughout Cornwall, in association with Software Cornwall, local businesses and Bodmin College."]
+           [:p "Except where otherwise noted, content on this site is licensed under a " [:a {:href "http://creativecommons.org/licenses/by/4.0/"} "Creative Commons Attribution 4.0 International license"] "."]
+           [:p  "This website is powered by " [:a {:href "https://clojure.org/"} "Clojure"] " and " [:a {:href "https://github.com/magnars/stasis"} "Stasis"] ", source code can be found on " [:a {:href "https://github.com/CornwallTechJam"} "GitHub"] "."]
            
         ]]
 ]
@@ -151,7 +151,7 @@
 
       [:footer {:id "footer"}
        [:p "Feel free to fork, we're hosted on"]
-       [:a {:href "#"} [:img {:src "assets/img/github_pages.svg"}]]]
+       [:a {:href "https://github.com/CornwallTechJam"} [:img {:src "assets/img/github_pages.svg"}]]]
 
       
 
