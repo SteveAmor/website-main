@@ -13,3 +13,11 @@ img.hp-rover {
     padding-left: 53px;
     text-transform: none;
 }
+
+.top-nav-social .meetup {
+    padding-top: 5px;
+}
+
+.top-nav-social .meetup img {
+    height: 21px;
+}
