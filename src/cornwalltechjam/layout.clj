@@ -21,6 +21,10 @@
       ])
    navigation-items))
 
+(defn- extra-javascript [javascript]
+  (if (= javascript "carousels")
+    [:script {:src "assets/js/carousels.js"}]))
+
 
 (defn layout-page [request page]
   (html5
@@ -38,7 +42,7 @@
 
 ;; Place holder for actual template
 (defn
-  layout-page-main [request {:keys [title description path content]}]
+  layout-page-main [request {:keys [title description javascript path content]}]
   (layout-page request content)
   (html5
    [:head
@@ -105,7 +109,7 @@
            [:a {:href "#"} "Getting there"]]
 
           [:li {:class ""}
-           [:a {:href "#"} "Photo gallery"]]
+           [:a {:href "gallery_20160312.html"} "Photo gallery"]]
 
           [:li {:class ""}
            [:a {:href "#"} "Contact us"]]
@@ -176,6 +180,8 @@
      "\n\n" [:script {:src "assets/js/DropdownHover.js"}]
      [:script {:src "assets/js/app.js"}]
      [:script {:src "assets/js/holder.js"}]
+
+     (extra-javascript javascript)
 
 
      ]]))

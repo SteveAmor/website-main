@@ -18,6 +18,10 @@
   (let [meta2 (or meta "")]
     (->> meta2 (re-seq #"description\s*:\s*(.*)") first second)))
 
+(defn- extract-javascript [meta]
+  (let [meta2 (or meta "")]
+    (->> meta2 (re-seq #"javascript\s*:\s*(.*)") first second)))
+
 
 (defn- prepare-path [path]
   path)
@@ -31,6 +35,7 @@
     {
      :title (or (extract-title meta-section) "Random Thought")
      :description (or (extract-description meta-section) "")
+     :javascript (or (extract-javascript meta-section) "")
      :path path
      :content content
      ;; :content meta-section
