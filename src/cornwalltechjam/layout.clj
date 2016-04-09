@@ -4,8 +4,11 @@
 
 (def navigation-items
   [{:title "Home", :path "index.html"}
-   {:title "About Us", :path "about.html"}
-   {:title "Contact", :path "contact.html"}])
+   {:title "Photos from March 2016", :path "gallery_20160312.html"}
+   {:title "Photos from April 2016", :path "gallery_20160312.html"}
+   ;; {:title "Getting there", :path ".html"}
+   ;; {:title "Contact us", :path ".html"}
+   ])
 
 (defn- nav-props [item path]
   (let [props {}]
@@ -102,17 +105,7 @@
         [:div {:class "collapse navbar-collapse", :id "bs-example-navbar-collapse-1"}
          [:ul {:class "nav navbar-nav"}
 
-          [:li {:class "active"}
-           [:a {:href "index.html"} "Home"]]
-
-          [:li {:class ""}
-           [:a {:href "#"} "Getting there"]]
-
-          [:li {:class ""}
-           [:a {:href "gallery_20160312.html"} "Photo gallery"]]
-
-          [:li {:class ""}
-           [:a {:href "#"} "Contact us"]]
+          (navigation path)
           
           ]]]]
       
