@@ -22,10 +22,8 @@
   (let [meta2 (or meta "")]
     (->> meta2 (re-seq #"javascript\s*:\s*(.*)") first second)))
 
-
 (defn- prepare-path [path]
   path)
-
 
 
 (defn create-partial [[raw-path raw-content]]

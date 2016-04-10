@@ -29,7 +29,7 @@
     [:script {:src "/assets/js/carousels.js"}]))
 
 
-(defn layout-page [request page]
+(defn layout-page-simple [request page]
   (html5
    [:head
     [:meta {:charset "utf-8"}]
@@ -41,9 +41,6 @@
     [:div.logo "cornwalltechjam.uk"]
     [:div.body page]]))
 
-
-
-;; Place holder for actual template
 (defn
   layout-page-main [request {:keys [title description javascript path content]}]
   (layout-page request content)
@@ -71,7 +68,8 @@
     [:link {:href "/assets/css/techjam.css", :rel "stylesheet"}] 
     "<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->" "\n    " "<!--
 [if lt IE 9]>\n        <script src=\"/assets/js/html5shiv.min.js\"></script>\n        <script src=\"/assets/js/respond.min.js\"></script>\n    <!
-[endif]-->" "\n"] "\n\n" "<!-- Preloader -->" "\n" 
+[endif]-->" "\n"]
+   
    [:body {} 
     [:div {:id "sb-site"}
      [:div {:class "boxed"}
@@ -95,9 +93,7 @@
             [:img {:src "/assets/img/meetup-logo.svg"}]]]] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
           [:a {:href "/index.html", :class "dropdown-toggle", :data-toggle "dropdown"} 
-           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 14th May"] 
-      ] 
-      ]]]
+           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 14th May"]]]]]
 
       [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
        [:div {:class "container"}
@@ -112,9 +108,7 @@
         [:div {:class "collapse navbar-collapse", :id "bs-example-navbar-collapse-1"}
          [:ul {:class "nav navbar-nav"}
 
-          (navigation path)
-          
-          ]]]]
+          (navigation path)]]]]
       
       content
 
@@ -152,19 +146,9 @@
         " " "<!-- row -->" ]
        " " "<!-- container -->" ]
 
-
       [:footer {:id "footer"}
        [:p "We're hosted on"]
-       [:a {:href "https://github.com/CornwallTechJam"} [:img {:src "/assets/img/github_pages.svg"}]]]
-
-      
-
-
-      ]
-
-     
-
-
+       [:a {:href "https://github.com/CornwallTechJam"} [:img {:src "/assets/img/github_pages.svg"}]]]]
 
      [:div {:id "back-top"}  [:a {:href "#header"} [:i {:class "fa fa-chevron-up"}]]]
 
@@ -181,7 +165,4 @@
      [:script {:src "/assets/js/app.js"}]
      [:script {:src "/assets/js/holder.js"}]
 
-     (extra-javascript javascript)
-
-
-     ]]))
+     (extra-javascript javascript)]]))

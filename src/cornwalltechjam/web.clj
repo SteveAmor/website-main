@@ -16,12 +16,8 @@
 
 (defn layout-page1 [request page]
   (layout/layout-page-main request page)
-  ;; (layout/layout-page request page)
+  ;; (layout/layout-page-simple request page)
   )
-
-;; (defn partial-pages99 [pages]
-;; (zipmap (keys pages)
-;; (map #(fn [req] (layout-page req %)) (vals pages))))
 
 (defn layout-page [page]
   [(:path page) (fn [request] (layout/layout-page-main request page))])
