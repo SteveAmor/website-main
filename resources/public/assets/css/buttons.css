@@ -21,7 +21,7 @@
 * We recommend the use of autoprefixer instead of Compass
 * when using buttons. However, buttons does support Compass.
 * simply change $ubtn-use-compass to true and uncomment the
-* @import 'compass' code below to use Compass.
+* @ import 'compass' code below to use Compass.
 */
 /*
 * Required Files
