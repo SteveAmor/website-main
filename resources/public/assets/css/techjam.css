@@ -39,3 +39,8 @@ img.hp-rover {
 #footer img {
     margin-top: 8px;
 }
+
+#carousel-cornwall-tech-jam .carousel-inner > .item > img, 
+#carousel-cornwall-tech-jam .carousel-inner > .item > a > img{
+    margin: auto;
+}
