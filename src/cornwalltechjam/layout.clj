@@ -147,7 +147,7 @@
 
 
       [:footer {:id "footer"}
-       [:p "Feel free to fork, we're hosted on"]
+       [:p "We're hosted on"]
        [:a {:href "https://github.com/CornwallTechJam"} [:img {:src "/assets/img/github_pages.svg"}]]]
 
       
