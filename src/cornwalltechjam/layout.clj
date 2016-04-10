@@ -4,8 +4,8 @@
 
 (def navigation-items
   [{:title "Home", :path "/index.html"}
-   {:title "Photos from March 2016", :path "/photos/20160312.html"}
    {:title "Photos from April 2016", :path "/photos/20160409.html"}
+   {:title "Photos from March 2016", :path "/photos/20160312.html"}
    ;; {:title "Getting there", :path ".html"}
    ;; {:title "Contact us", :path ".html"}
    ])
