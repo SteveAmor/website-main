@@ -60,6 +60,7 @@
     [:link {:href "/assets/css/vendors.css", :rel "stylesheet"}]
     [:link {:href "/assets/css/syntaxhighlighter/shCore.css", :rel "stylesheet"}]
     [:link {:href "/assets/css/style-blue.css", :rel "stylesheet", :title "default"}]
+    [:link {:href "http://fonts.googleapis.com/css?family=Lato:100,300,400|Open+Sans:400italic,400,600|Muli:300|Indie+Flower:400|Oswald:400,700,300" :rel "stylesheet"}]
     [:link {:href "/assets/css/width-full.css", :rel "stylesheet", :title "default"}]
     [:link {:href "/assets/css/techjam.css", :rel "stylesheet"}] 
     "<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->" "\n    " "<!--
