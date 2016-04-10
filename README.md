@@ -1,14 +1,5 @@
-# cornwalltechjam
+# Cornwall Tech Jam website static site generator
 
-A Clojure library designed to ... well, that part is up to you.
+This project is used to generate the website hosted at:
 
-## Usage
-
-FIXME
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+http://www.cornwalltechjam.uk
