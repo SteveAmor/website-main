@@ -43,7 +43,6 @@
 
 (defn
   layout-page-main [request {:keys [title description javascript path content]}]
-  (layout-page request content)
   (html5
    [:head
     
