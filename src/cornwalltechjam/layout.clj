@@ -88,11 +88,11 @@
            [:a {:href "https://www.facebook.com/cornwalltechjam", :class "animated fadeIn animation-delay-8 facebook"} 
             [:i {:class "fa fa-facebook"}]]]
           [:li {} 
-           [:a {:href "http://www.meetup.com/Cornwall-Digital/events/230402814/", :class "animated fadeIn animation-delay-9 meetup"}
+           [:a {:href "http://www.meetup.com/Cornwall-Digital/events/230402876/", :class "animated fadeIn animation-delay-9 meetup"}
             [:img {:src "/assets/img/meetup-logo.svg"}]]]] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
           [:a {:href "/index.html", :class "dropdown-toggle", :data-toggle "dropdown"} 
-           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam at RCS"]]]]]
+           [:i {:class "fa fa-bullhorn"}] " 1st Raspberry Jam at Truro"]]]]]
 
       [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
        [:div {:class "container"}
