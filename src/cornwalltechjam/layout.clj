@@ -76,7 +76,7 @@
        [:div {:class "container"} 
         [:div {:class "header-full-title"} 
          [:h1 {:class "animated fadeInRight"} 
-          [:a {:href "index.html"} "Cornwall " 
+          [:a {:href "/index.html"} "Cornwall " 
            [:span {} "Tech Jam"]]] 
          [:p {:class "animated fadeInRight"} "Raspberry Pi's, Pasties and Programming"]]
         [:nav {:class "top-nav"} 
@@ -88,11 +88,11 @@
            [:a {:href "https://www.facebook.com/cornwalltechjam", :class "animated fadeIn animation-delay-8 facebook"} 
             [:i {:class "fa fa-facebook"}]]]
           [:li {} 
-           [:a {:href "http://www.meetup.com/Cornwall-Digital/events/230402876/", :class "animated fadeIn animation-delay-9 meetup"}
+           [:a {:href "http://www.meetup.com/Cornwall-Digital/events/230402908/", :class "animated fadeIn animation-delay-9 meetup"}
             [:img {:src "/assets/img/meetup-logo.svg"}]]]] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
           [:a {:href "/index.html", :class "dropdown-toggle", :data-toggle "dropdown"} 
-           [:i {:class "fa fa-bullhorn"}] " 1st Raspberry Jam at Truro"]]]]]
+           [:i {:class "fa fa-bullhorn"}] " Software Freedom Day 17th Sept"]]]]]
 
       [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
        [:div {:class "container"}
