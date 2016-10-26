@@ -78,7 +78,7 @@
 (def export-dir "build")
 
 (defn export []
-  (let [assets (optimizations/all (get-assets) {})]
+  (let [assets (optimizations/none (get-assets) {})]
     (stasis/empty-directory! export-dir)
     (optimus.export/save-assets assets export-dir)
     (stasis/export-pages (get-pages) export-dir {:optimus-assets assets})
