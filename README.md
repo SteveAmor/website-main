@@ -38,7 +38,7 @@ $ rsync --dry-run -avc \
 
 ## Updating the code
 
-You can edit the code using any text-editor. However, there are syntax-aware editors which make writing and updating Lisp (and Clojure) a joy.
+You can edit the code using any text-editor. However, there are syntax-aware editors which make writing and updating Clojure (and Lisp) a joy.
 
 The site was originally developed in Emacs using clojure-mode and cider. Clojure for the Brave is a good reference to get started:
 
