@@ -26,7 +26,7 @@ $ lein build-site
 
 The website will be generated in the `build` directory.
 
-If you wish to set the site live the [https://github.com/CornwallTechJam/cornwalltechjam.github.io](live site repository) needs to be updated. For example:
+If you wish to set the site live the [live site repository](https://github.com/CornwallTechJam/cornwalltechjam.github.io) needs to be updated. For example:
 
 ~~~~
 $ rsync --dry-run -avc \
@@ -46,5 +46,5 @@ http://www.braveclojure.com/basic-emacs/
 
 There are other editors available which might be a little simpler for those not already using Emacs (although Emacs is well worth trying):
 
-* [http://lighttable.com/](Light Table)
-* [https://sekao.net/nightcode/](Nightcode)
+* [Light Table](http://lighttable.com/)
+* [Nightcode](https://sekao.net/nightcode/)
