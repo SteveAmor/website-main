@@ -65,6 +65,11 @@
     [:link {:href "/assets/css/style-blue.css", :rel "stylesheet", :title "default"}]
     [:link {:href "/assets/css/width-full.css", :rel "stylesheet", :title "default"}]
     [:link {:href "/assets/css/techjam.css", :rel "stylesheet"}] 
+    [:meta {:name "twitter:card", :content "summary"}]
+    [:meta {:name "twitter:site", :content "@cornwalltechjam"}]
+    [:meta {:name "twitter:title", :content title}]
+    [:meta {:name "twitter:description", :content description}]
+    [:meta {:name "twitter:image", :content "https://avatars1.githubusercontent.com/u/18351576"}]
     "<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->" "\n    " "<!--
 [if lt IE 9]>\n        <script src=\"/assets/js/html5shiv.min.js\"></script>\n        <script src=\"/assets/js/respond.min.js\"></script>\n    <!
 [endif]-->" "\n"]
