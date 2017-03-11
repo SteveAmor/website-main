@@ -93,7 +93,7 @@
            [:a {:href "https://www.facebook.com/cornwalltechjam", :class "animated fadeIn animation-delay-8 facebook"} 
             [:i {:class "fa fa-facebook"}]]]
           [:li {} 
-           [:a {:href "https://www.meetup.com/Cornwall-Digital/events/237311610/", :class "animated fadeIn animation-delay-9 meetup"}
+           [:a {:href "https://www.meetup.com/Cornwall-Digital/events/238342770/", :class "animated fadeIn animation-delay-9 meetup"}
             [:img {:src "/assets/img/meetup-logo.svg"}]]]] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
           [:a {:href "/index.html", :class "dropdown-toggle", :data-toggle "dropdown"} 
