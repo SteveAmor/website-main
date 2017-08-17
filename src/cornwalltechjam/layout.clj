@@ -6,7 +6,7 @@
   [{:title "Home", :path "/index.html"}
    {:title "Photos from April 2016", :path "/photos/20160409.html"}
    {:title "Photos from March 2016", :path "/photos/20160312.html"}
-   ;; {:title "Getting there", :path ".html"}
+   {:title "Getting there", :path "https://www.cornwall.ac.uk/documents/maps/camborne-cornwall-college-campus-map.pdf"}
    ;; {:title "Contact us", :path ".html"}
    ])
 
@@ -93,11 +93,11 @@
            [:a {:href "https://www.facebook.com/cornwalltechjam", :class "animated fadeIn animation-delay-8 facebook"} 
             [:i {:class "fa fa-facebook"}]]]
           [:li {} 
-           [:a {:href "https://www.meetup.com/Cornwall-Digital/", :class "animated fadeIn animation-delay-9 meetup"}
+           [:a {:href "https://www.meetup.com/Cornwall-Digital/events/242597073/", :class "animated fadeIn animation-delay-9 meetup"}
             [:img {:src "/assets/img/meetup-logo.svg"}]]]] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
           [:a {:href "/index.html", :class "dropdown-toggle", :data-toggle "dropdown"} 
-           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: Sept 2017"]]]]]
+           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 9th Sept"]]]]]
 
       [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
        [:div {:class "container"}
