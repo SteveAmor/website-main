@@ -4,8 +4,8 @@
 
 (def navigation-items
   [{:title "Home", :path "/index.html"}
-   {:title "Photos from April 2016", :path "/photos/20160409.html"}
-   {:title "Photos from March 2016", :path "/photos/20160312.html"}
+   {:title "Photos from April", :path "/photos/20160409.html"}
+   {:title "Photos from March", :path "/photos/20160312.html"}
    {:title "Finding us", :path "/locations/cornwall-college.html"}
    ;;{:title "Finding us", :path "/locations/bodmin-library.html"}
    ;; {:title "Contact us", :path ".html"}
