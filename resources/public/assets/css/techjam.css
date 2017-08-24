@@ -44,3 +44,25 @@ img.hp-rover {
 #carousel-cornwall-tech-jam .carousel-inner > .item > a > img{
     margin: auto;
 }
+
+.main-content {
+  padding-top: 50px;
+  background-color: #f1f1f1;
+  border-bottom: solid 1px;
+}
+
+.main-content > .main-header {
+  background-color: #f1f1f1;
+  border-bottom: solid 1px #ddd;
+}
+
+.main-content > .main-header > .container > .page-title {
+  color: #333;
+}
+
+@media (min-width: 768px) {
+    .main-content {
+    padding-top: 147px;
+  }
+}
+

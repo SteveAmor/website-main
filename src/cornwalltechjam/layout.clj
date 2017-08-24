@@ -76,8 +76,7 @@
 [endif]-->" "\n"]
    
    [:body {} 
-    [:div {:id "sb-site"}
-     [:div {:class "boxed"}
+     [:div {:class "navbar-fixed-top"}
       [:header {:id "header-full-top", :class "hidden-xs header-full"} 
        [:div {:class "container"} 
         [:div {:class "header-full-title"} 
@@ -113,10 +112,12 @@
         [:div {:class "collapse navbar-collapse", :id "bs-example-navbar-collapse-1"}
          [:ul {:class "nav navbar-nav"}
 
-          (navigation path)]]]]
-      
-      content
+          (navigation path)]]]]]
 
+      [:div {:class "main-content"}
+       content
+
+     [:div {:class "boxed"}
       [:aside {:id "footer-widgets"}
        [:div {:class "container"}
         [:div {:class "row"}
