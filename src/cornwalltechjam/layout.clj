@@ -98,7 +98,13 @@
             [:img {:src "/assets/img/meetup-logo.svg"}]]]] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
           [:a {:href "/index.html", :class "dropdown-toggle", :data-toggle "dropdown"} 
-           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 9th Sept"]]]]]
+           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 9th Sept"]]
+         [:div
+          [:div {:class "animated fadeInRight gclogo"}
+           [:img {:src "/assets/img/gc-img.png"}]]
+          [:div {:class "animated fadeInRight lotoeulogo"}
+           [:img {:src "/assets/img/lotoeu-img.png"}]]
+         ]]]]
 
       [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
        [:div {:class "container"}
@@ -109,7 +115,6 @@
           [:i {:class "fa fa-bars"}]]
          [:a {:id "ar-brand", :class "navbar-brand hidden-lg hidden-md hidden-sm", :href "/index.html"} "Cornwall " 
           [:span {} "Tech Jam"]]]
-     
         [:div {:class "collapse navbar-collapse", :id "bs-example-navbar-collapse-1"}
          [:ul {:class "nav navbar-nav"}
 
