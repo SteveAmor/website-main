@@ -107,7 +107,7 @@
          [:button {:type "button", :class "navbar-toggle", :data-toggle "collapse", :data-target "#bs-example-navbar-collapse-1"} 
           [:span {:class "sr-only"} "Toggle navigation"] 
           [:i {:class "fa fa-bars"}]]
-         [:a {:id "ar-brand", :class "navbar-brand hidden-lg hidden-md hidden-sm", :href "index.html"} "Cornwall " 
+         [:a {:id "ar-brand", :class "navbar-brand hidden-lg hidden-md hidden-sm", :href "/index.html"} "Cornwall " 
           [:span {} "Tech Jam"]]]
      
         [:div {:class "collapse navbar-collapse", :id "bs-example-navbar-collapse-1"}
