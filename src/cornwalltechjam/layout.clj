@@ -8,7 +8,7 @@
    {:title "Photos from March", :path "/photos/20160312.html"}
 ;;   {:title "Finding us", :path "/locations/cornwall-college.html"}
    {:title "Finding us", :path "/locations/bodmin-library.html"}
-;;   {:title "Finding us", :path "/locations/penzance-college.html"}
+;;   {:title "Finding us", :path "/locations/penwith-college.html"}
    {:title "Newsletter", :path "/newsletter.html"}
    ;; {:title "Contact us", :path ".html"}
    ])
