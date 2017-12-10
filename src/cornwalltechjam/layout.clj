@@ -7,8 +7,8 @@
    {:title "Photos from April", :path "/photos/20160409.html"}
    {:title "Photos from March", :path "/photos/20160312.html"}
 ;;   {:title "Finding us", :path "/locations/cornwall-college.html"}
-   {:title "Finding us", :path "/locations/bodmin-library.html"}
-;;   {:title "Finding us", :path "/locations/penwith-college.html"}
+;;   {:title "Finding us", :path "/locations/bodmin-library.html"}
+   {:title "Finding us", :path "/locations/penwith-college.html"}
    {:title "Newsletter", :path "/newsletter.html"}
    ;; {:title "Contact us", :path ".html"}
    ])
@@ -96,11 +96,11 @@
            [:a {:href "https://www.facebook.com/cornwalltechjam", :class "animated fadeIn animation-delay-8 facebook"} 
             [:i {:class "fa fa-facebook"}]]]
           [:li {} 
-           [:a {:href "https://www.meetup.com/Cornwall-Digital/events/244218714/", :class "animated fadeIn animation-delay-9 meetup"}
+           [:a {:href "https://www.meetup.com/Cornwall-Digital/events/245643615/", :class "animated fadeIn animation-delay-9 meetup"}
             [:img {:src "/assets/img/meetup-logo.svg"}]]]] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
           [:a {:href "/index.html", :class "dropdown-toggle", :data-toggle "dropdown"} 
-           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 9th Dec"]]]]]
+           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 13th Jan"]]]]]
 
       [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
        [:div {:class "container"}
