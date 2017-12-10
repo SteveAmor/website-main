@@ -10,6 +10,7 @@
 ;;   {:title "Finding us", :path "/locations/bodmin-library.html"}
    {:title "Finding us", :path "/locations/penwith-college.html"}
    {:title "Newsletter", :path "/newsletter.html"}
+   {:title "Future Jams", :path "/futurejams.html"}
    ;; {:title "Contact us", :path ".html"}
    ])
 
