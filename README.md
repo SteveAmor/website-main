@@ -26,6 +26,14 @@ $ lein build-site
 
 The website will be generated in the `build` directory.
 
+Test the website in your browser by running the following command to start a local webserver:
+
+~~~~
+$ lein ring server
+~~~~
+
+Your browser should automatically open.
+
 If you wish to set the site live the [live site repository](https://github.com/CornwallTechJam/cornwalltechjam.github.io) needs to be updated. For example:
 
 ~~~~
