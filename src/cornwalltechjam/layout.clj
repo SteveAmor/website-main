@@ -101,7 +101,7 @@
            [:a {:href "https://www.meetup.com/Cornwall-Digital/events/245647278/", :class "animated fadeIn animation-delay-9 meetup"}
             [:img {:src "/assets/img/meetup-logo.svg"}]]]] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
-          [:a {:href "/index.html", :class "dropdown-toggle", :data-toggle "dropdown"} 
+          [:a {:href "/index.html"} 
            [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 31st May"]]]]]
 
       [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
