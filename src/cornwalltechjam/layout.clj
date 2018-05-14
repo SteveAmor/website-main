@@ -57,7 +57,7 @@
     [:title {} title] 
     [:link {:rel "shortcut icon", :href "/assets/img/favicon.png"}] 
     [:meta {:name "description", :content description}]
-    [:link {:href "http://fonts.googleapis.com/css?family=Lato:100,300,400|Open+Sans:400italic,400,600|Muli:300|Indie+Flower:400|Oswald:400,700,300" :rel "stylesheet"}]
+    [:link {:href "https://fonts.googleapis.com/css?family=Lato:100,300,400|Open+Sans:400italic,400,600|Muli:300|Indie+Flower:400|Oswald:400,700,300" :rel "stylesheet"}]
     [:link {:href "/assets/css/bootstrap.min.css", :rel "stylesheet"}]
     [:link {:href "/assets/css/bootstrap-switch.min.css", :rel "stylesheet"}]
     [:link {:href "/assets/css/font-awesome.min.css", :rel "stylesheet"}]
