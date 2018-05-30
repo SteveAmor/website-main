@@ -102,7 +102,7 @@
             [:img {:src "/assets/img/meetup-logo.svg"}]]]] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
           [:a {:href "/index.html"} 
-           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 31st May"]]]]]
+           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 9th June"]]]]]
 
       [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
        [:div {:class "container"}
