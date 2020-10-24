@@ -11,6 +11,7 @@
 ;;   {:title "Finding us", :path "/locations/penwith-college.html"}
 ;;   {:title "Finding us", :path "/locations/headforwards.html"}
 ;;   {:title "Finding us", :path "/locations/heartlands.html"}
+   {:title "Online Resources", :path "/resources.html"}
    {:title "Newsletter", :path "/newsletter.html"}
    {:title "Future Jams", :path "/futurejams.html"}
    ;; {:title "Contact us", :path ".html"}
