@@ -7,7 +7,7 @@
    {:title "Photos from April", :path "/photos/20160409.html"}
    {:title "Photos from March", :path "/photos/20160312.html"}
 ;;   {:title "Finding us", :path "/locations/cornwall-college.html"}
-     {:title "Finding us", :path "/locations/bodmin-library.html"}
+;;     {:title "Finding us", :path "/locations/bodmin-library.html"}
 ;;   {:title "Finding us", :path "/locations/penwith-college.html"}
 ;;   {:title "Finding us", :path "/locations/headforwards.html"}
 ;;   {:title "Finding us", :path "/locations/heartlands.html"}
