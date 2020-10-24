@@ -97,13 +97,13 @@
             [:i {:class "fa fa-twitter"}]]] 
           [:li {} 
            [:a {:href "https://www.facebook.com/cornwalltechjam", :class "animated fadeIn animation-delay-8 facebook"} 
-            [:i {:class "fa fa-facebook"}]]]
-          [:li {} 
-           [:a {:href "https://www.meetup.com/Cornwall-Digital/events/269460728/", :class "animated fadeIn animation-delay-9 meetup"}
-            [:img {:src "/assets/img/meetup-logo.svg"}]]]] 
+            [:i {:class "fa fa-facebook"}]]]]
+         ; [:li {} 
+         ;  [:a {:href "https://www.meetup.com/Cornwall-Digital/events/269460728/", :class "animated fadeIn animation-delay-9 meetup"}
+         ;   [:img {:src "/assets/img/meetup-logo.svg"}]]]] 
          [:div {:class "dropdown animated fadeInDown animation-delay-11"} 
           [:a {:href "/index.html"} 
-           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: 18th Apr"]]]]]
+           [:i {:class "fa fa-bullhorn"}] " Next Tech Jam: TBC"]]]]]
 
       [:nav {:class "navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top", :role "navigation", :id "header"}
        [:div {:class "container"}
